@@ -1,0 +1,60 @@
+/*
+Custom Css
+*/
+.card-img-top {
+    object-fit: cover; /* Giữ tỷ lệ khung hình và cắt ảnh để vừa khung */
+    height: 250px; /* Chiều cao cụ thể mà bạn muốn */
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của khung */
+}
+
+.nav-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hover-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 8px;
+}
+
+.hover-links a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.hover-links a:hover {
+    background-color: #ddd;
+}
+
+#user-menu.show {
+    display: block;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao 100% của viewport */
+  }
+  
+  form {
+    margin: 50px;
+    margin-left: 580px;
+    width: 100%;
+    max-width: 400px; /* Giới hạn chiều rộng tối đa */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
